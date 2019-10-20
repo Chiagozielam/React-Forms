@@ -1,0 +1,10 @@
+.form{
+    width: 400px;
+    margin: 3% auto;
+    margin-top: 5%;
+    padding: 2%;
+  }
+  .form h3{
+      color: red;
+      text-align: center;
+  }
