@@ -63,7 +63,7 @@ const UserForm = () => {
                   <Form.Label>Age</Form.Label>
                   <Form.Control
                     type="number"
-                    placeholder="Don"
+                    placeholder="18"
                     name="age"
                     value={inputs.age}
                     onChange={onChangeInput}
