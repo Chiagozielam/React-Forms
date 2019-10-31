@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { addUser } from "../actions/userActions";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
-import {useSelector} from "react-redux"
 
 const UserForm = () => {
   const dispatchRef = useDispatch();
